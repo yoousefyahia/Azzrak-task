@@ -81,7 +81,6 @@
 .payment-methods {
     display: flex;
     gap: 12px;
-    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
@@ -175,7 +174,6 @@
 .contact-item {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     gap: 12px;
     color: white;
     opacity: 0.8;
@@ -307,10 +305,10 @@
 }
 
 .insta-handle {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    font-weight: 800;
+    transform: rotate(-90deg);
+    font-weight: 400;
     color: white;
+    font-size: 20 px;
     font-size: 0.9rem;
 }
 
@@ -322,8 +320,8 @@
 }
 
 .insta-item {
-    width: 65px;
-    height: 65px;
+    width: 72px;
+    height: 72px;
     background: #fff;
     overflow: hidden;
 }

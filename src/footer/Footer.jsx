@@ -56,15 +56,15 @@ export default function Footer() {
                             <h3>تواصل معنا</h3>
                             <div className="contact-info">
                                 <a href="tel:009612345678932" className="contact-item">
-                                    <MdOutlineSmartphone size={18} />
+                                    <MdOutlineSmartphone size={15} />
                                     <span>009612345678932</span>
                                 </a>
                                 <a href="tel:009612345678932" className="contact-item">
-                                    <FaPhoneAlt size={16} />
+                                    <FaPhoneAlt size={15} />
                                     <span>009612345678932</span>
                                 </a>
                                 <a href="#" className="contact-item">
-                                    <FaGlobe size={16} />
+                                    <FaGlobe size={15} />
                                     <span>https://salla.sa</span>
                                 </a>
                             </div>
@@ -91,14 +91,14 @@ export default function Footer() {
                     <div className="footer-bottom-row">
                         <div className="maroofa-logo desktop-only">
                             <div className="mawthooq-icon">
-                                <img src={logo} alt="Sportify Logo" style={{ width: '120px' }} />
+                                <img src={logo} alt="Sportify Logo" style={{ width: '88px', height:'66px' }} />
                             </div>
                             <span>موثق لدى منصة الأعمال</span>
                         </div>
 
                         {/* Instagram Feed */}
                         <div className="instagram-feed-box">
-                            <span className="insta-handle">@sportify</span>
+                            <span className="insta-handle">sportify@</span>
                             <div className="insta-grid">
                                 <div className="insta-item"><img src={handbag1} alt="insta" /></div>
                                 <div className="insta-item"><img src={shoes1} alt="insta" /></div>
